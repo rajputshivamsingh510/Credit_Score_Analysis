@@ -1,4 +1,4 @@
-# 📄 DeFi Credit Scoring Model – README
+# DeFi Credit Scoring Model – README
 
 ## Overview
 This project builds a credit score (0–1000 scale) for crypto wallet addresses based on their activity in decentralized finance (DeFi) protocols. Instead of using traditional credit history, this model uses public on-chain behavior to assess how responsibly a wallet interacts with DeFi systems.
