@@ -1,13 +1,13 @@
 # 📄 DeFi Credit Scoring Model – README
 
-## 🔍 Overview
+## Overview
 This project builds a credit score (0–1000 scale) for crypto wallet addresses based on their activity in decentralized finance (DeFi) protocols. Instead of using traditional credit history, this model uses public on-chain behavior to assess how responsibly a wallet interacts with DeFi systems.
 
 The idea is to simulate a DeFi-native alternative to credit scoring — fair, data-driven, and permissionless.
 
 ---
 
-## 🎯 How the Score Works
+## How the Score Works
 
 The score starts from a base value (500) and is adjusted based on wallet activity:
 
@@ -27,7 +27,7 @@ This scoring logic is used to generate a training target for a machine learning 
 
 ---
 
-## 🤖 ML Model Summary
+## ML Model Summary
 
 - Features are aggregated per wallet from historical data.
 - Scores are scaled using StandardScaler.
@@ -39,7 +39,7 @@ Data is split 80/20 for training and testing.
 
 ---
 
-## ⚙️ Why This Makes Sense
+## Why This Makes Sense
 
 We reward:
 - Consistent DeFi activity (e.g. deposits, repayments)
@@ -55,7 +55,7 @@ The model isn't perfect, but it's a solid starting point for making sense of DeF
 
 ---
 
-## 🔄 How You Can Extend This
+## How You Can Extend This
 
 This setup is easy to build on:
 - Add new actions like staking, voting, or NFT transfers
