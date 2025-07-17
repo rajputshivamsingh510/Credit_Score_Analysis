@@ -9,8 +9,8 @@ After processing and scoring DeFi user wallets using behavior-based features and
 ## Score Distribution
 
 The figure below shows the distribution of wallet credit scores and the top contributing features to the scoring model.
+<img width="1180" height="390" alt="image" src="https://github.com/user-attachments/assets/4dfc5092-6ece-42f9-b685-5e8ee7c83804" />
 
-![Score Distribution and Feature Importances](output.png)
 
 ---
 
